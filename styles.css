@@ -4,9 +4,10 @@ body {
 	font-size: 16px;
 	line-height: 1.4;
 	color: #000;
-	min-width: 320px;
+	min-width: 1600px;
 	overflow-x: hidden;
 	height: auto;
+  padding: 30px 30px;
 }
 .title{
   display: flex;
