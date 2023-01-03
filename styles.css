@@ -1,0 +1,636 @@
+body {
+	position: relative;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #000;
+	min-width: 320px;
+	overflow-x: hidden;
+	height: auto;
+}
+.title{
+  display: flex;
+  color: aliceblue;
+}
+.title:hover{
+  color: orange;
+  cursor: pointer;
+}
+.title>span{
+  color:orange;
+  font-weight:100;
+}
+
+ .navbar{
+  width: 100%;
+  height: 100px;
+  background-color:black;
+ }
+
+.nav-menu{
+  padding: 15px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  justify-content:space-around;
+  color: grey;
+  
+}
+.nav-menu>li{
+  padding-bottom: 100px;
+  padding: 15px;
+}
+.nav-menu:hover{
+color:orange;
+cursor: pointer;
+}
+.inf-container>img{
+  height: 15cm;
+  width: 100%;
+}
+.inf-container {
+  position: relative;
+  text-align:left;
+}
+.head-container{
+  position: absolute;
+  top:80px;
+  left:180px
+}
+.head-container{
+  font-size:2cm;
+  display: flex;
+  color:aliceblue;
+}
+.head-container>span{
+  font-weight: 200;
+  color:orange;
+}
+.head3-container{
+  width: 30%;
+  height:30px;
+  color: aliceblue;
+  font-weight: 200;
+  font-size: 1cm;
+  position: absolute;
+  top:170px;
+  left: 180px;
+}
+.head3-container>hr{
+  width: 2cm;
+  color:aliceblue;
+  font-weight: bold;
+  border: solid;
+  height: 3px;
+}
+.inf-container>p{
+  width: 30%;
+  height: 30px;
+  color: aliceblue;
+  position: absolute;
+  font-weight: 100;
+  top: 300px;
+  left: 180px;
+}
+.inf-container>button{
+  position: absolute;
+  bottom: 3cm;
+  left: 5cm;
+  font-size:x-large;
+  background: none;
+  cursor: pointer;
+  border-color: aliceblue;
+  color:aliceblue;
+  border-width: 1px;
+  font-weight: 100;
+}
+.registration{
+  position: absolute;
+  top: 80px;
+  right:130px;
+  background-color: aliceblue;
+  width: 30%;
+  height:70%
+}
+.registr-heading{
+  padding-left:35px;
+  padding-top: 20px;
+  width:100%cm;
+  height: 65px;
+  background-color: lightgrey;
+  font-weight: bold;
+}
+.registr-heading>span{
+  color: orange;
+}
+.input{
+  display: flex;
+  flex-direction: column;
+  padding-left:10px ;
+  padding-right: 10px;
+  padding-top: 15px;
+}
+.registr-button{
+position: absolute;
+bottom: 0px;
+width: 100%;
+height:2cm;
+border: none;
+background-color: orange;
+color:aliceblue;
+font-size: larger;
+font-weight: 200;
+}
+.registr-button:hover{
+  cursor:pointer;
+font-weight: bolder;
+}
+.footer-container{
+  height: 3cm;
+  width: 100%;
+  background-color:white;
+}
+.footer-container>h3{
+  position:relative;
+  bottom: 0px;
+  left:20px
+}
+.footer-container>p{
+  position: relative;
+  bottom: 0px;
+  left:20px;
+  width: 20%;
+  height: 3cm;
+}
+.socials{
+  position: absolute;
+  right: 300px;
+  bottom:30px;
+  box-sizing: content-box;
+}
+.section-page{
+width: 100%;
+height: 500px;
+background-color: lightgoldenrodyellow;
+}
+.TAB1{
+padding-left: 15px;
+padding-top: 30px;
+color: aliceblue;
+font-weight: 200;
+width: 100px;
+height: 100px;
+background-color:orange;
+}
+.TAB2{
+padding-left: 15px;
+padding-top: 30px;
+color: aliceblue;
+font-weight: 200;
+width: 100px;
+height: 100px;
+background-color:brown;
+}
+.TAB3{
+padding-left: 15px;
+padding-top: 30px;
+color: aliceblue;
+font-weight: 200;
+width: 100px;
+height: 100px;
+background-color: brown;
+}
+.column {
+  position: absolute;
+  padding-top :100px;
+  left:150px;
+}
+.inf{
+  position: absolute;
+  padding-top:100px;
+  margin-left:300px ;
+  width: 40%;
+  height: 500px;
+}
+.inf>button{
+position: absolute;
+width: 30%;
+height:2cm;
+margin-top: 1cm;
+border: none;
+background-color: orange;
+color:aliceblue;
+font-size: larger;
+font-weight: 200;
+}
+.inf>button:hover{
+  font-weight: bold;
+
+}
+.city{
+  padding-left: 25cm;
+  padding-top:100px ;
+}
+.section-page2{
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-color: whitesmoke;
+}
+.city2{
+  width: 700px;
+  height:400px;
+  box-shadow: 1cm;
+  padding-top: 2cm;
+  padding-left: 3cm;;
+}
+.inf2{
+  width: 250%;
+  height: 40px;
+  padding-top:2cm;
+  padding-left:2cm;
+}
+.inf2>hr{
+  width: 2cm;
+  border: solid;
+  color: orange;
+}
+.inf2>h3{
+  padding-left: 1cm;
+}
+.inf2>p{
+  padding-left: 1cm;
+}
+.page3{
+  width: 100%;
+  height: 600px;
+  background-color: lightgray;
+}
+.head-of-page3{
+  position: absolute;
+  left: 13cm;
+  padding-top: 1cm;
+  font-weight: 200;
+}
+.head-of-page3>hr{
+  color:orange;
+  height:4px;
+}
+.head-of-page3>p{
+  padding-left:1cm ;
+}
+.page3-content{
+  position: relative;
+  top:8cm;
+  left:2cm;
+  display: flex;
+}
+.page3-content>h2{
+  position:relative;
+  left: 2cm;
+}
+.price-page{
+  width: 100%;
+  height: 600px;
+  background-color: gray;
+}
+.head-price-page{
+  position: absolute;
+  left:13cm;
+  padding-top:1cm;
+  font-weight:200;
+}
+.head-price-page>hr{
+  color: orange;
+  height: 2px;
+  
+  ;
+}
+.head-price-page>h3{
+  font-weight: 200;
+  padding-left: 2cm;
+}
+.price-cards{
+  display: flex;
+}
+.basic{
+  display: flex;
+  flex-direction: column;
+  padding-top: 5cm;
+  padding-left: 3cm;
+}
+.basic>h3{
+  width: 7cm;
+  height: 1cm;
+  background-color: brown;
+  padding-left: 3cm;
+  padding-top:2px;
+  color: aliceblue;
+  font-weight:200;
+  position: relative;
+  top:22px;
+}
+.aliceblue{
+  position: relative;
+  right: 3cm;
+  width: 7cm;
+  height: 4px;
+  background-color: aliceblue;
+}
+.basic>h4{
+  padding-left: 40%;
+  padding-top: 1cm;
+  font-size:1cm;
+  height:3cm;
+  background-color: brown;
+  color: aliceblue;
+  position: relative;
+  top:15px
+}
+.basic>h4>p{
+  font-weight: 200;
+  font-size: medium;
+  position: relative;
+  right:18px;
+  color: aliceblue;
+}
+.orange{
+  background-color: orange;
+  position: relative;
+  top:0px;
+  height: 12px;
+}
+.content-card{
+
+  border: 1cm2;
+  padding-left: 40px;
+  background-color: aliceblue;
+  text-decoration: underline;
+}
+
+.professional {
+  position: relative;
+  right: 1cm;
+  padding-left: 5cm;
+  padding-top: 4cm;
+}
+.professional>h3{
+  width: 8cm;
+  height: 1cm;
+  background-color: brown;
+  padding-left:1cm;
+  padding-top: 5px;
+  font-weight: 200;
+  color: aliceblue;
+}
+.professional>h4{
+  width: 8cm;
+  height: 3cm;
+  background-color: brown;
+  color: aliceblue;
+  font-weight: 200;
+  font-size: xx-large;
+  padding-left: 120px;
+  padding-top: 20px;
+  position: relative;
+  bottom: 5px;
+}
+.professional>p{
+  position: relative;
+  top: -60px;
+  left: 100px;
+  color: aliceblue;
+}
+.orange2{
+width: 100%;
+height: 40px;
+background-color: orange;
+padding-left: 2cm;
+padding-top: 5px;
+position: relative;
+top:-2cm;
+}
+.aliceblue2{
+  width: 8cm;
+  height:10px;
+  background-color: aliceblue;
+  position: relative;
+  right:38px;
+}
+.content-card2{
+  padding-left: 50px;
+  padding-top: 5px;
+  position: relative;
+  top: -75px;
+  width: 100%;
+  background-color: aliceblue;
+  text-decoration: underline;
+}
+.enterprise{
+  width: 7cm;
+  position: relative;
+  left: 100px;
+  top: 177px;
+}
+.enterprise>h3{
+  width: 7cm;
+  height: 1cm;
+  background-color: brown;
+  color: aliceblue;
+  font-weight: 200;
+  padding-left: 50px;
+  padding-top: 5px;
+}
+.aliceblue3{
+  width: 7cm;
+  height: 4px;
+  background-color: aliceblue;
+  position: relative;
+  left:-50px;
+}
+.enterprise>h4{
+  position: relative;
+  bottom: 5px;
+  width:7cm;
+  height: 3cm;
+  background-color: brown;
+  padding-left: 3cm;
+  padding-top: 1cm;
+  font-weight: 200;
+  color: aliceblue;
+}
+.enterprise>p{
+  position: relative;
+  bottom:1cm;
+  left:2cm;
+  color: aliceblue;
+}
+.orange3{
+  width: 7cm;
+  height: 5px;
+  background-color: orange;
+  position: relative;
+  bottom: 52px;
+}
+.content-card3{
+  padding-left: 50px;
+  padding-top: 5px;
+  position: relative;
+  top: -52px;
+  width: 100%;
+  background-color: aliceblue;
+  text-decoration: underline;
+}
+.feedback{
+  width: 100%;
+  height: 600px;
+  background-color: lightgrey;
+}
+.head-of-feedback{
+  position:relative;
+  top: 10px;
+  left: 30%;
+  font-weight: 200;
+}
+.head-of-feedback>p{
+  padding-top: 1cm;
+  padding-left: 3cm;
+}
+.head-of-feedback>h1{
+  font-weight: 200;
+}
+.orange4{
+  height: 4px;
+  background-color: orange;
+  width: 2cm;
+  position: relative;
+  left: 7cm;
+}
+.feedback-content>p{
+  width: 8cm;
+  height: 4cm;
+  background-color: antiquewhite;
+}
+.feedback-content{
+  padding-top: 1cm;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.avatars{
+  padding-right: 5cm;
+  display: flex;
+  justify-content: space-around;
+}
+.avatars>p{
+    position: relative;
+    right: 100px;
+    top: 20px;
+}
+.stylish{
+  width: 100%;
+  height: 300px;
+}
+.head-stylish{
+  position: relative;
+  left:35%;
+  bottom:280px;
+  color: aliceblue;
+  font-weight: 200;
+}
+.aliceblue4{
+  height:3px;
+  width:3cm;
+  position: relative;
+  left: 4cm;
+  background-color: aliceblue;
+}
+.head-stylish>h1{
+  font-weight: 200;
+}
+.downloading{
+  position: relative;
+  bottom: 5cm;
+  left: 46%;
+  height:2cm;
+  width: 4cm;
+  border-color: whitesmoke;
+  border:solid;
+  background: none;
+  color: aliceblue;
+  font-size: larger;
+  font-weight: 350;
+}
+.downloading:hover{
+  font-weight: bold;
+  color: orange;
+}
+.registration-section{
+  width:100%;
+  height: 500px;
+  background-color: aliceblue;
+}
+.titleblock{
+  position: relative;
+  left: 35%;
+  top: 10px;
+}
+.orange5{
+  background-color: orange;
+  height: 3px;
+  width: 2cm;
+  position: relative;
+  left: 150px;
+}
+.titleblock>h1{
+  position: relative;
+  left: 110px;
+  font-weight: 200;
+}
+.inputs{
+  width:15cm;
+  border:none;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs>input:hover{
+  cursor: pointer;
+  border-radius: 10%;
+}
+.message{
+position: relative;
+left:20cm;
+bottom: 150px;;
+height:150px;
+}
+.para{
+  position: relative;
+  bottom:340px;
+  left:20cm
+}
+.registration-button{
+  position: relative;
+  bottom:3cm;
+  left:45%;
+  height:1cm;
+  width:4cm;
+  background-color: orange;
+  border: none;
+  color: aliceblue;
+  font-weight: 200;
+}
+.registration-button:hover{
+  border-radius: 10px;
+  transition: 6ms;
+}
+.lastSection{
+  background-color:black;
+  width:100%;
+height: 100px;
+}
+.imgFacebook{
+  width:1cm;
+  height:1cm;
+}
