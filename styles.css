@@ -4,11 +4,15 @@ body {
 	font-size: 16px;
 	line-height: 1.4;
 	color: #000;
-	min-width: 1600px;
 	overflow-x: hidden;
 	height: auto;
-  padding: 30px 30px;
 }
+.container{
+  max-width: 1400px;
+  margin: 0px auto;
+  padding:0px 0px;
+}
+
 .title{
   display: flex;
   color: aliceblue;
