@@ -6,12 +6,9 @@ body {
 	color: #000;
 	overflow-x: hidden;
 	height: auto;
+  width: 1600px;
 }
-.container{
-  max-width: 1400px;
-  margin: 0px auto;
-  padding:0px 0px;
-}
+
 
 .title{
   display: flex;
@@ -46,9 +43,21 @@ body {
   padding-bottom: 100px;
   padding: 15px;
 }
-.nav-menu:hover{
-color:orange;
-cursor: pointer;
+.features:hover{
+  color: orange;
+  cursor: pointer;
+}
+.About:hover{
+  color: orange;
+  cursor: pointer;
+}
+.contact:hover{
+  color: orange;
+  cursor: pointer;
+}
+.rewiev:hover{
+  color: orange;
+  cursor: pointer;
 }
 .inf-container>img{
   height: 15cm;
@@ -113,7 +122,7 @@ cursor: pointer;
 .registration{
   position: absolute;
   top: 80px;
-  right:130px;
+  right:200px;
   background-color: aliceblue;
   width: 30%;
   height:70%
@@ -155,6 +164,11 @@ font-weight: bolder;
   height: 3cm;
   width: 100%;
   background-color:white;
+}
+.imgtelega{
+  position: relative;
+  bottom: 4cm;
+  left:10cm;
 }
 .footer-container>h3{
   position:relative;
@@ -290,6 +304,7 @@ font-weight: 200;
   top:8cm;
   left:2cm;
   display: flex;
+  width: 80%;
 }
 .page3-content>h2{
   position:relative;
@@ -515,7 +530,7 @@ top:-2cm;
 .feedback-content>p{
   width: 8cm;
   height: 4cm;
-  background-color: antiquewhite;
+  background-color: lightgrey;
 }
 .feedback-content{
   padding-top: 1cm;
@@ -534,7 +549,7 @@ top:-2cm;
     top: 20px;
 }
 .stylish{
-  width: 100%;
+  width: 90%;
   height: 300px;
 }
 .head-stylish{
@@ -599,6 +614,10 @@ top:-2cm;
   display: flex;
   flex-direction: column;
 }
+.inputs{
+  position: relative;
+  left: 50px;
+}
 
 .inputs>input:hover{
   cursor: pointer;
@@ -627,15 +646,101 @@ height:150px;
   font-weight: 200;
 }
 .registration-button:hover{
-  border-radius: 10px;
-  transition: 6ms;
+  font-weight: bold;
 }
 .lastSection{
-  background-color:black;
   width:100%;
-height: 100px;
+  height: 100px;
 }
 .imgFacebook{
   width:1cm;
   height:1cm;
+}
+.inf-container>button:hover{
+  font-weight: bold;
+  color: orange;
+}
+.page3-conten>p{
+  height: 3cm;
+}
+.Contact:hover{
+  color :orange;
+  cursor: pointer;
+}
+.Contact{
+  position: relative;
+  right:2cm;
+}
+.facebok{
+  position: relative;
+  bottom: 215px;
+  left: 460px;
+}
+.imginsta{
+  position: relative;
+  bottom: 280px;
+  left: 540px;
+}
+.imgutube{
+  position: relative;
+  left: 620px;
+  bottom: 344px;
+}
+.social2{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-left: 6cm;
+  padding-right: 5cm;
+}
+.column>h3:hover{
+  cursor: pointer;
+  font-weight: bolder;
+}
+.sps{
+  width: 100%;
+  height: 600px;
+  background-color: aliceblue;
+}
+.txt-content{
+  width: 15cm;
+  padding-left: 3cm;
+  padding-top: 4cm;
+}
+.orange8{
+  height: 3px;
+  width:2cm;
+  background-color: orange;
+}
+.foto-section{
+  position: relative;
+  left:20cm;
+  bottom: 7cm;
+  width: 5cm;
+  height: 4cm;
+  box-shadow: #000 5px;
+}
+.inf2>img{
+  position: relative;
+  right: 1cm;
+  top: 1cm;
+}
+.t1{
+  position: relative;
+  top: 1cm;
+}
+.title1>img{
+padding-bottom: 10px;
+padding-left: 2cm;
+}
+.title2>img{
+padding-bottom: 10px;
+padding-left: 2cm;
+}
+.title3>img{
+  padding-bottom: 10px;
+  padding-left: 2cm;
 }
