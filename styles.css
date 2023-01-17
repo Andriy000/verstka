@@ -7,12 +7,14 @@ body {
 	overflow-x: hidden;
 	height: auto;
   width: 1600px;
+  transition: 1s;
 }
 
 
 .title{
   display: flex;
   color: aliceblue;
+  opacity: 1;
 }
 .title:hover{
   color: orange;
@@ -27,6 +29,9 @@ body {
   width: 100%;
   height: 100px;
   background-color:black;
+  position: fixed;
+  opacity: 0.8;
+  z-index: 3;
  }
 
 .nav-menu{
@@ -193,33 +198,7 @@ width: 100%;
 height: 500px;
 background-color: lightgoldenrodyellow;
 }
-.TAB1{
-padding-left: 15px;
-padding-top: 30px;
-color: aliceblue;
-font-weight: 200;
-width: 100px;
-height: 100px;
-background-color:orange;
-}
-.TAB2{
-padding-left: 15px;
-padding-top: 30px;
-color: aliceblue;
-font-weight: 200;
-width: 100px;
-height: 100px;
-background-color:brown;
-}
-.TAB3{
-padding-left: 15px;
-padding-top: 30px;
-color: aliceblue;
-font-weight: 200;
-width: 100px;
-height: 100px;
-background-color: brown;
-}
+
 .column {
   position: absolute;
   padding-top :100px;
@@ -651,6 +630,8 @@ height:150px;
 .lastSection{
   width:100%;
   height: 100px;
+  background-color: orange;
+  opacity: 0.9;
 }
 .imgFacebook{
   width:1cm;
@@ -685,6 +666,7 @@ height:150px;
   position: relative;
   left: 620px;
   bottom: 344px;
+
 }
 .social2{
   width: 80%;
@@ -692,9 +674,10 @@ height:150px;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 10px;
   padding-left: 6cm;
   padding-right: 5cm;
+  padding-top: 13px;
+
 }
 .column>h3:hover{
   cursor: pointer;
@@ -744,3 +727,183 @@ padding-left: 2cm;
   padding-bottom: 10px;
   padding-left: 2cm;
 }
+.form__group>input{
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.input.error{
+  border-color: red;
+}
+.list>li{
+  list-style-type: none;
+
+}
+.list{
+  display: flex;
+  flex-direction: row;
+}
+.emails{
+  width: 90%;
+  margin-left: 20px;
+  height: 50px;
+}
+.messagekey{
+  position: relative;
+  bottom: 4cm;
+  left: 20cm;
+  list-style-type: none;
+}
+.registration-button{
+position: relative;
+bottom: 4cm;
+left: 17cm;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+.column>button{
+  padding-bottom: 20px;
+  margin-top: 1px;
+  padding-left: 7px;
+  border: none;
+  width: 3cm;
+  height: 3cm;
+  background-color: grey;
+  color: lightgrey;
+}
+.column>button:hover{
+  font-weight: bolder;
+  opacity: 0.8;
+  transition: 1s;
+}
+.emailkey{
+  list-style-type:none ;
+  padding-left: 30px;
+}
+.tabs{
+  width: 15cm;
+  height: 3cm;
+}
+.tabs>li{
+display: inline-flex;
+margin: 1cm 1cm 1cm 1cm ;
+position: relative;
+bottom: 20px;
+right: 2cm;
+position: relative;
+}
+.tabs>li:after{
+  content: '';
+  position: absolute;
+  bottom: -20%;
+  left:-3%;
+  width: 0%;
+  height: 5px;
+  background-color:orange;
+  border-radius: 30px;
+  transition: width 0.8s ease;
+}
+.tabs>li.is-active::after{
+  width: 104%;
+}
+.tabs>li>a{
+  text-decoration: none;
+  color:aliceblue;
+}
+.video-section{
+  width: 100%;
+  height: 500px;
+  background-color:light;
+}
+.video-template{
+  position: relative;
+  left: 15cm;
+  top: 1cm;
+}
+.video-template>p{
+  font-size: xx-large;
+  font-weight: 200;
+}
+.orange10{
+  height: 3px;
+  width: 2cm;
+  background-color: orange;
+  position: relative;
+  left: 3cm;
+}
+.video{
+  padding-top: 10px;
+  position: relative;
+  right: 30px;
+}
+.label-name{
+  position: relative;
+  left: 30px;
+  color:lightgray;
+  font-weight: 100;
+}
+.passwordKey{
+  padding-left: 30px;
+  color:lightgray;
+  font-weight: 100;
+}
+.emailkey{
+  color:lightgray;
+  font-weight: 100;
+}
+.input-packer>input{
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 90%;
+  margin-left: 15px;
+  height: 1cm;
+}
+.prompts{
+  position: relative;
+  left: 1cm;
+  top: 20px;
+  width: 90%;
+}
+.er{
+  font-weight: 200;
+  font-size:medium;
+}
+
+.acceptions{
+  color:green;
+}
+.input-packer>input{
+  background: none;
+  border: 2px solid gray; 
+  outline: none;
+  border-radius: 10px;
+}
+.able{
+position: absolute;
+bottom: 0px;
+width: 100%;
+height:2cm;
+border: none;
+background-color: orange;
+color:aliceblue;
+font-size: larger;
+font-weight: 200;
+}
+.dis{
+position: absolute;
+bottom: 0px;
+width: 100%;
+height:2cm;
+border: none;
+background-color: orange;
+color:aliceblue;
+font-size: larger;
+font-weight: 200;
+opacity:0.6;
+cursor:not-allowed;
+}
+

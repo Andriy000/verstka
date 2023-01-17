@@ -19,10 +19,12 @@
         IT
       </span>
     </h1>
-      <li class="features">Features</li>
-      <li class="About">About</li>
-      <li class="rewiev">Rewiev</li>
-      <li class="Contact">Contact</li>
+    <div class="tabs">
+      <li class="Features is-active"><a href="#features"> Features</li> </a>   
+      <li class="About"> <a href="#about">About</li></a>
+      <li class="rewiev"><a href="#reviev">Rewiev</li></a>
+      <li class="Contact"><a href="#contact">Contact</li></a>
+    </div>
     </ul>
   </div>
 </nav>
@@ -40,15 +42,18 @@
       <button>Download</button>
       <section class="registration">
       <h3 class="registr-heading">Try Your <span>FREE</span> Trial Today</h3>
-    <div class="input">
-      <input type="text" name="name" id="" class="name"> <br>
-      <hr>
-      <input type="text" name="Email" id="02"> <br>
-      <hr>
-      <input type="text" name="Password" id="03"> <br>
-      <hr>
-    </div>
-    <button class="registr-button">Get Started</button>
+            
+            <form action="/"  id="input-pack" class="input-packer" >
+              <div class="prompts">
+              <h4 id="erors" class="er"></h4>
+              <h4 class="acceptions"></h4>
+              </div>
+              <input type="text" name="name" placeholder="name"id="nam" required >
+              <input type="text" name="email" placeholder="email"id="email" required>
+              <input type="password" name="password" placeholder="password"id="pass" required >
+              <button class="registr-button" id="btn">Get Started</button>
+            </form>
+              
       </section>
   </div>
 </section>
@@ -60,6 +65,7 @@
 </div>
 <div class="facebok"><img src="/Users/macbookpro15/learningJS/projects/verstka/iconmonstr-facebook-6-64.png" alt=""></div>
 <div class="imginsta">
+
   <img src="/Users/macbookpro15/learningJS/projects/verstka/iconmonstr-instagram-12-64.png" alt="">
 </div>
 <div class="imgutube">
@@ -67,11 +73,11 @@
 </div>
 </footer>
 
-<section class="section-page">
+<section class="section-page" id="features">
   <div class="column">
-  <h3 class="TAB1">TAB1</h3>
-  <h3 class="TAB2">TAB2</h3>
-  <h3 class="TAB3">TAB3</h3>
+  <button class="TAB is-active" data-tab-name="tab1">TAB1</button >
+  <button  class="TAB" data-tab-name="tab2">TAB2</button >
+  <button  class="TAB" data-tab-name="tab3">TAB3</button >
 </div>
 <div class="inf">
 <H2>Tabs with soft transistioning eftct</H2>
@@ -94,7 +100,7 @@
     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et aspernatur facere eveniet unde in aut iure ipsam, perferendis minima, inventore placeat quidem distinctio qui eum voluptate voluptatum. Facere, iste cum!</p>
   </div>
 </section>
-<section class="sps">
+<section class="sps" id="about">
   <div class="txt-content">
   <h2>Standard picture section</h2>
   <div class="orange8"></div>
@@ -186,7 +192,7 @@
     </div>
 </div>
 </section>
-<section class="feedback">
+<section class="feedback" id="reviev">
    <div class="head-of-feedback">
     <h1>WHAT OUR CUSTOMERS ARE SAYING</h1>
     <div class="orange4"></div>
@@ -218,15 +224,15 @@
     </div>
     <button class="downloading">Download</button>
 </section>
-<section class="registration-section">
+<section class="registration-section" id="contact">
   <div class="titleblock">
     <h1>contact us</h1>
     <div class="orange5"></div>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
   </div>
   <section class="inputs">
-    <p>name</p>
-    <input type="text" name="name" id="" class="name">
+    <p>name <p class="namekey2">At least one latin letter</p> </p>
+    <input type="text" name="name" id="" class="name2" placeholder="name" oninput="name2Validation()">
     <br>
     <p>subject</p>
     <input type="text" name="subject" id="" class="subject">
@@ -234,10 +240,18 @@
     <p>email</p>
     <input type="text" name="email" id="" class="email">
     
-    <input type="text" name="message" id="" class="message">
+    <input type="text" name="message" id="" class="message" oninput="return messageValidation()">
     <p class= para>message</p>
+    <li class="messagekey">Message - min 1 max 250, any characters</li>
   </section>
   <button class="registration-button">Send Message</button>
+</section>
+<section class="video-section">
+  <div class="video-template">
+     <p>Cool video templates</p>
+     <div class="orange10"></div>
+     <iframe  width="420" height="315"src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" class="video"></iframe>
+  </div>
 </section>
 <section class="lastSection">
   <div class="social2">
@@ -247,5 +261,8 @@
     <img src="/Users/macbookpro15/learningJS/projects/verstka/iconmonstr-youtube-7-64.png" alt="">
   </div>
 </section>
+
+<script src="app.js"></script>
+
 </body>
 </html>
